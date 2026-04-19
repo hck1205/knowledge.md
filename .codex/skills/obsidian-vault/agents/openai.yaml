@@ -1,0 +1,6 @@
+# 역할: Codex UI나 skill 목록에서 이 skill을 어떻게 보여줄지 정하는 메타데이터 파일이다.
+# display_name은 표시 이름, short_description은 짧은 소개, default_prompt는 이 skill을 호출할 때 제안할 기본 프롬프트를 뜻한다.
+interface:
+  display_name: "Obsidian Vault"
+  short_description: "개인용 Obsidian 지식 vault를 장기적으로 정리하고 확장하도록 돕는다."
+  default_prompt: "Use $obsidian-vault to help me organize, write, and refine notes in my personal Obsidian vault in Korean."
